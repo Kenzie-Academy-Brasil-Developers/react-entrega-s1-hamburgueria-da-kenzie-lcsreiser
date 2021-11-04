@@ -1,0 +1,15 @@
+@media (max-width: 1000px) {
+  .divMenuContainer {
+    display: flex;
+    overflow-x: scroll;
+  }
+}
+
+@media (min-width: 1024px) {
+  .divMenuContainer {
+    overflow-x: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    width: 76%;
+  }
+}

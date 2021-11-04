@@ -1,0 +1,22 @@
+.divNav {
+  border: 1px solid gray;
+  height: 35px;
+  width: 295px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  background-color: white;
+}
+
+input {
+  width: 200px;
+  border: none;
+}
+
+@media (min-width: 1024px) {
+  .divNav {
+    margin-right: 50px;
+  }
+}

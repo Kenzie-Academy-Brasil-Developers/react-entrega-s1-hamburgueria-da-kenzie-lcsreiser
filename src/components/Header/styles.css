@@ -1,0 +1,21 @@
+.divHeader {
+  background-color: #e0e0e0;
+  padding-bottom: 15px;
+}
+
+.divHeader h2 {
+  padding: 10px 0;
+  font-size: 26px;
+  text-align: center;
+}
+
+@media (min-width: 1024px) {
+  .divHeader {
+    display: flex;
+    width: 100%;
+    align-items: center;
+  }
+  .divHeader h2 {
+    padding-left: 50px;
+  }
+}

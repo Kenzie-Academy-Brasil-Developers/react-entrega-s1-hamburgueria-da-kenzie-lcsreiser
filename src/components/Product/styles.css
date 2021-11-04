@@ -1,0 +1,43 @@
+.divProduct {
+  border: 1px solid gray;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.divImage {
+  width: 210px;
+  display: flex;
+  justify-content: center;
+  background-color: #e0e0e0;
+  margin-bottom: 10px;
+}
+
+.divImage img {
+  text-align: center;
+}
+
+.divProduct > div {
+  padding: 0 15px 15px 10px;
+}
+
+.divProduct > div > p {
+  margin-bottom: 10px;
+}
+
+.buttonProduct {
+  margin: 0 0 10px 10px;
+}
+
+.image {
+  height: 177px;
+  width: 177px;
+}
+
+button {
+  background-color: #27ae60;
+  border: none;
+  height: 27px;
+  width: 70px;
+  border-radius: 5px;
+  color: white;
+}

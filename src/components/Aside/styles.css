@@ -1,0 +1,71 @@
+.divAside {
+  background-color: #f5f5f5;
+  width: 300px;
+  height: 625px;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+.shopCar {
+  background-color: #27ae60;
+  color: white;
+  padding: 15px;
+  border-radius: 5px 5px 0 0;
+}
+
+.buttonRemove {
+  background-color: transparent;
+  color: #828282;
+  margin-left: 40px;
+}
+
+.imageCar {
+  height: 70px;
+  width: 70px;
+  background-color: #e0e0e0;
+}
+
+.buyList-image {
+  display: flex;
+  margin-top: 10px;
+}
+.buyList-descrip {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.buyList-image img {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.removeAll {
+  background-color: #e0e0e0;
+  color: #828282;
+  width: 100%;
+}
+
+.divTotal {
+  border-top: 1px solid black;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 15px;
+}
+
+.divTotal p {
+  margin-top: 10px;
+}
+
+.productAdd {
+  width: 38%;
+}
+
+@media (min-width: 1024px) {
+  .divAside {
+    width: 23%;
+    margin-top: 10px;
+    margin-right: 10px;
+  }
+}
