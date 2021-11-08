@@ -3,7 +3,6 @@ import "./App.css";
 import { useState } from "react";
 import MenuContainer from "./components/MenuContainer";
 import Header from "./components/Header";
-//import Main from "./components/Main";
 import Aside from "./components/Aside";
 
 function App() {

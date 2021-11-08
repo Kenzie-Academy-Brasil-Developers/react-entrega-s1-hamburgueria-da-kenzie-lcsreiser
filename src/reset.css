@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
 html,
 body,
 div,
@@ -84,4 +86,5 @@ video {
   border: 0;
   font-size: 100%;
   font: inherit;
+  font-family: "Inter", sans-serif;
 }
